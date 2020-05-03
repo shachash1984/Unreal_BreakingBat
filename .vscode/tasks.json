@@ -1,0 +1,977 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "BreakingBat Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBat",
+				"Win32",
+				"Debug",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBat",
+				"Win32",
+				"Debug",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BreakingBat Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BreakingBat",
+				"Win32",
+				"Debug",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBat",
+				"Win32",
+				"DebugGame",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBat",
+				"Win32",
+				"DebugGame",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BreakingBat Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BreakingBat",
+				"Win32",
+				"DebugGame",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBat",
+				"Win32",
+				"Development",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBat",
+				"Win32",
+				"Development",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BreakingBat Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BreakingBat",
+				"Win32",
+				"Development",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBat",
+				"Win32",
+				"Shipping",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBat",
+				"Win32",
+				"Shipping",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BreakingBat Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BreakingBat",
+				"Win32",
+				"Shipping",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBat",
+				"Win32",
+				"Test",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBat",
+				"Win32",
+				"Test",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BreakingBat Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BreakingBat",
+				"Win32",
+				"Test",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBat",
+				"Win64",
+				"Debug",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBat",
+				"Win64",
+				"Debug",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BreakingBat Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BreakingBat",
+				"Win64",
+				"Debug",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBat",
+				"Win64",
+				"DebugGame",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBat",
+				"Win64",
+				"DebugGame",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BreakingBat Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BreakingBat",
+				"Win64",
+				"DebugGame",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBat",
+				"Win64",
+				"Development",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBat",
+				"Win64",
+				"Development",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BreakingBat Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BreakingBat",
+				"Win64",
+				"Development",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBat",
+				"Win64",
+				"Shipping",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBat",
+				"Win64",
+				"Shipping",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BreakingBat Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BreakingBat",
+				"Win64",
+				"Shipping",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBat",
+				"Win64",
+				"Test",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBat",
+				"Win64",
+				"Test",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BreakingBat Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BreakingBat",
+				"Win64",
+				"Test",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Android Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBat",
+				"Android",
+				"Debug",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Android Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBat",
+				"Android",
+				"Debug",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BreakingBat Android Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Android Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BreakingBat",
+				"Android",
+				"Debug",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Android DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBat",
+				"Android",
+				"DebugGame",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Android DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBat",
+				"Android",
+				"DebugGame",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BreakingBat Android DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Android DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BreakingBat",
+				"Android",
+				"DebugGame",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Android Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBat",
+				"Android",
+				"Development",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Android Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBat",
+				"Android",
+				"Development",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BreakingBat Android Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Android Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BreakingBat",
+				"Android",
+				"Development",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Android Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBat",
+				"Android",
+				"Shipping",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Android Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBat",
+				"Android",
+				"Shipping",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BreakingBat Android Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Android Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BreakingBat",
+				"Android",
+				"Shipping",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Android Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBat",
+				"Android",
+				"Test",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Android Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBat",
+				"Android",
+				"Test",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BreakingBat Android Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBat Android Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BreakingBat",
+				"Android",
+				"Test",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBatEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBatEditor",
+				"Win64",
+				"Debug",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBatEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBatEditor",
+				"Win64",
+				"Debug",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BreakingBatEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBatEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BreakingBatEditor",
+				"Win64",
+				"Debug",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBatEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBatEditor",
+				"Win64",
+				"DebugGame",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBatEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBatEditor",
+				"Win64",
+				"DebugGame",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BreakingBatEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBatEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BreakingBatEditor",
+				"Win64",
+				"DebugGame",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBatEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBatEditor",
+				"Win64",
+				"Development",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBatEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BreakingBatEditor",
+				"Win64",
+				"Development",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BreakingBatEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "BreakingBatEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BreakingBatEditor",
+				"Win64",
+				"Development",
+				"E:\\Unreal Projects\\BreakingBat 4.22\\BreakingBat.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		}
+	]
+}

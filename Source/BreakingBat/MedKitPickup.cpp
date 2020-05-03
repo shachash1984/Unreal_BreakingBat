@@ -17,7 +17,7 @@ void AMedKitPickup::OnOverlap(AActor * MyOverlappedActor, AActor * OtherActor)
 		ABreakingBatPlayerState* state = Cast<ABreakingBatPlayerState>(BBCharacter->GetPlayerState());
 		if (BBCharacter && state && state->GetHealth() < 1.0f)
 		{
-			state->UpdateHealth(100.0f);
+			state->UpdateHealth(100.0f);			
 			Destroy();
 		}
 	}

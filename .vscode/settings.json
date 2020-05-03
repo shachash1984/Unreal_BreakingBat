@@ -1,0 +1,11 @@
+{
+	"files.exclude": {
+		"E:/Unreal Projects/BreakingBat 4.22/.git": true,
+		"E:/Unreal Projects/BreakingBat 4.22/.vs": true,
+		"E:/Unreal Projects/BreakingBat 4.22/.vscode": true,
+		"E:/Unreal Projects/BreakingBat 4.22/Builds": true,
+		"E:/Unreal Projects/BreakingBat 4.22/Content": true,
+		"E:/Unreal Projects/BreakingBat 4.22/Intermediate": true,
+		"E:/Unreal Projects/BreakingBat 4.22/Saved": true
+	}
+}
