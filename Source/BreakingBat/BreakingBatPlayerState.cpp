@@ -55,7 +55,7 @@ bool ABreakingBatPlayerState::CollectedAllGems()
 
 void ABreakingBatPlayerState::HandleReceivedDamage(float Damage)
 {
-	bCanBeDamaged = false;
+	SetCanBeDamaged(false);
 	RedFlash = true;
 	UpdateHealth(-Damage);
 	DamageTimer();
@@ -77,7 +77,7 @@ void ABreakingBatPlayerState::BeginPlay()
 	Health = FullHealth;
 	HealthPercentage = Health / FullHealth;
 	PreviousHealth = HealthPercentage;
-	bCanBeDamaged = true;
+	SetCanBeDamaged(true);
 	iMaxGems = 20;
 	iGemsCollected = 0;
 
@@ -161,7 +161,7 @@ void ABreakingBatPlayerState::DamageTimer()
 
 void ABreakingBatPlayerState::SetDamageState()
 {
-	bCanBeDamaged = true;
+	SetCanBeDamaged(true);
 }
 
 void ABreakingBatPlayerState::SetPowerValue()
